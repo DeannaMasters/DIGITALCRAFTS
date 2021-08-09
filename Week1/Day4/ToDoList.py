@@ -4,14 +4,14 @@ print("This Is Your To-Do List!")
 
 mainMenu = ("""\nPress 1: Add Task\nPress 2: Delete Task\nPress 3: View Tasks\nPress q: Quit\nEnter your Choice: """) 
 
-priority = {"low : [], medium" : [], "high" : []}
+priority = {"Low : [], Medium" : [], "High" : []}
 
 while choice != "q":
     choice = input(mainMenu)
     
     if choice == "1":
         taskName = input("Enter the task you need to do: "" ")
-        priority = input("Enter the priority of the task (low, medium, high)"" ")
+        priority = input("Enter the priority of the task (Low, Medium, High)"" ")
         taskNameIndex = len(toDoList) + 1
         newTask = taskName + " " + priority
         toDoList.append(newTask)
