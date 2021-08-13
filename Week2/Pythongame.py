@@ -86,4 +86,6 @@ while startGame:
     
     else:
         print("INCORRECT INPUT!\nOPTIONS ARE 1, 2, 3, 4. 5, OR Q")
-   
+ 
+
+    
