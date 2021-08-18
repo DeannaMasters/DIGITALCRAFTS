@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Profile</title>
+    <style>
+      body {
+        font-family:'Style Script', cursive;;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        margin: 0;
+      }
+
+      .header,
+      .main,
+      .sidebar-left,
+      .sidebar-right {
+        padding: 20px;
+      }
+
+      .header,
+      .footer {
+        background-color: #4297A0;
+      }
+    
+
+      .sidebar-left,
+      .sidebar-right {
+        background-color: #2F5061;
+      }
+
+      .main {
+        background-color: #F4EAE6;
+        display: flex
+        justify-content: center
+      }
+
+      .layout {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .content {
+        display: flex;
+        flex: 1;
+      }
+
+      .sidebar-left {
+        order: 1;
+        width: 30%;
+      }
+
+      .main {
+        order: 2;
+      }
+
+      .sidebar-right {
+        order: 3;
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <header class="header">
+        <h1>Deanna's Profile</h1>
+      </header>
+      <section class="content">
+        <main class="main">
+          <h2>About Me</h2>
+          <img src="https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" width="200" height="200">
+
+          <p>
+            I am a veteran and have been given an opportunity to learn to code. This is not an easy class by any means, however, I am enjoying it and learning quickly. Hopefully I will be ready to be employable prior to the holidays and will be able to start the New Year in a new career. 
+          </p>
+        
+        </main>
+        <aside class="sidebar-left">
+          <h3>Personal Info</h3>
+          <ul>
+            <a href="Webpage_FilePath">Phone</a>
+            <a href="Webpage_FilePath">Email</a>
+            <a href="Webpage_FilePath">LinkedIn</a>
+          </ul>
+        </aside>
+        <aside class="sidebar-right">
+          <h4>Fun Things</h4>
+          <ul>
+            <li>Baseball</li>
+            <li>Gymnastics</li>
+            <li>Volunteering</li>
+            <li>Scouts</li>
+            <li>Outdoors</li>
+        </aside>
+      </section>
+    </div>
+  </body>
+</html>
+
+
+
+
+        
