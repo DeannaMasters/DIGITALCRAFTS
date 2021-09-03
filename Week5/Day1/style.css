@@ -1,0 +1,145 @@
+.main {
+    display: flex;
+    background-color: rgb(104, 140, 230);
+    height: fit-content;
+}
+
+.body {
+    font-family: 'Martel', serif;
+    color: #274472;
+    margin:0; 
+}
+.header,
+.footer {
+    background-color: #faf208;
+    height: 60px;
+    width: 100%;
+
+
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header h1 {
+    font-size: 60px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar {
+    background-color: rgb(81, 106, 247);
+    height: auto;
+    width: 22%;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.sidebar h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.sidebar h3{
+    font-size: 20px;
+}
+
+.sidebar ul{
+    font-size: 20px;
+}
+.content {
+    background-image: radial-gradient(
+        at bottom left,
+        blue,
+        yellow);
+    background-image: radial-gradient(
+        at bottom right,
+        blue,
+        yellow);
+        height: fit-content;
+        width: 76%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+}
+.content p {
+    font-size: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    color: black;
+}
+
+.content h2 { 
+    font-size: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding-right: 150px;
+    align-items: start;
+    
+}
+
+.header,
+.footer,
+.sidebar
+.content{
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: black;
+    font-size: 20px;
+    
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+.article {
+    height: 500px;
+    width: 500px;
+}
+.article img {
+    height: 300px;
+    width: 100px;
+}
+.news-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    place-items: center;
+}
