@@ -1,0 +1,87 @@
+<!doctype html>
+<title>NetflixClone</title>
+<style>
+.grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.box {
+  color: white;
+  font-size: 4vw;
+  padding: 10px;
+  background: black;
+  text-align: center;
+}
+.box:nth-child(1) {
+  grid-column: span 12;
+  }
+.box:nth-child(2), 
+.box:nth-child(3) {
+  grid-column: span 6;
+  }
+.box:nth-child(4),
+.box:nth-child(5),
+.box:nth-child(6) {
+  grid-column: span 4;
+  }
+.box:nth-child(7),
+.box:nth-child(8),
+.box:nth-child(9),
+.box:nth-child(10) {
+  grid-column: span 3;
+  }
+.box:nth-child(11),
+.box:nth-child(12),
+.box:nth-child(13),
+.box:nth-child(14),
+.box:nth-child(15),
+.box:nth-child(16) {
+  grid-column: span 2;
+  }
+@media screen and (max-width: 575px) {
+    .grid {
+      display: block;
+      }
+    .box {
+      margin: 10px 0;
+    }
+  }
+</style>
+<main class="grid">
+  <div class="photo">
+        <img src="https://r9ehu3b03f8qg3nim601s198-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/14590237_web1_181129-RDA-Netflix-Canada-plans-biggest-price-increase-yet-as-competition-intensifies_1.jpg" alt="netflix logo" width="100" height="100" />
+      </div>
+  {% comment %} <div class="UNLIMITED TV SHOWS & MOVIES"</div>
+    <a href="/login" class="authLinks redButton" data-uia="header-login-link">Sign in
+    </a> {% endcomment %}
+  {% comment %} <div>Movies
+    <p>"Movies move us like  nothing else can, whether they're scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience."
+    </div> {% endcomment %}
+  <div class="box">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+  <div class="box">8</div>
+  <div class="box">9</div>
+  <div class="box">10</div>
+  <div class="box">11</div>
+  <div class="box">12</div>
+  <div class="box">13</div>
+  <div class="box">14</div>
+  <div class="box">15</div>
+  <div class="box">16</div>
+  <div class="box">17</div>
+  <div class="box">18</div>
+  <div class="box">19</div>
+  <div class="box">20</div>
+  <div class="box">21</div>
+  <div class="box">22</div>
+  <div class="box">23</div>
+  <div class="box">24</div>
+  <div class="box">25</div>
+  <div class="box">26</div>
+  <div class="box">27</div>
+  <div class="box">28</div>
+</main>

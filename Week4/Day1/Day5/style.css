@@ -1,0 +1,52 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/12/65/wYZUQx.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    margin-bottom: auto;
+    width: 25%;
+
+}
+h1{
+  box-sizing: border-box;
+  color: rgb(16, 66, 174)
+
+}
+.header {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: papyrus;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size:20px;
+  font-family: Papyrus;
+}
+
+.button {
+  font-family: Papyrus;
+  font-size: 16px;
+  color: #549BAD;
+  width: 100px;
+}
+

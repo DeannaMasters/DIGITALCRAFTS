@@ -1,0 +1,9 @@
+.form-styles {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
