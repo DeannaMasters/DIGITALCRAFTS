@@ -1,0 +1,63 @@
+.Main {
+  background-color: #a4a2ac;
+}
+
+.About >h1 {
+    background-color: #a4a2ac;
+    padding: 4rem 0 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    --width-mobile: 12;
+    
+  }
+
+    .about_image {
+      --width-mobile: 12;
+      align-items: center;
+    }
+
+    .galogo {
+      --width: var(--width-mobile, 0);
+    }
+
+  .about-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: black;
+    background-color: #a4a2ac;
+  }
+
+  .about__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    background-color: #a4a2ac;
+  }
+  
+  .about-description > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify; 
+    background-color: #a4a2ac;
+  }
+  
+  .about-description-heading {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+
+  

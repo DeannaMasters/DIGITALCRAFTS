@@ -1,0 +1,78 @@
+@media all and (min-width: 480px) {
+  .Login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.login >h1 {
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 2px 4px #970c10;
+  
+}
+
+login-text {
+  font-size: 24px;
+  text-decoration: solid;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+  .form {
+    margin: 0 auto;
+    max-width: 320px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  .formBox {
+    display:grid;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    align-items: center;
+}
+
+  .login-wrapper {
+    color: #474440;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+
+  .form-group {
+    color: #bfcad0;
+    border: 5
+  }
+
+  .form-control {
+    color: red;
+  }
+
+  .label {
+    color: red;
+  }
+
+  .h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+
+  .p {
+    color: red;
+  }
+
+  .button{
+    color: red;
+  }
+}
